@@ -45,7 +45,7 @@ const Footer = () => {
                 <img src={Logo} alt="Nextspace" className="w-14 h-14" />
                 <div>
                   <span className="text-3xl font-bold text-white">
-                    Nextspace
+                    Jill Interior
                   </span>
                   <p className="text-[#FFF6D6] text-sm font-medium">
                     Architecture & Design
@@ -69,9 +69,9 @@ const Footer = () => {
                       Visit Our Office
                     </h5>
                     <p className="text-gray-300 text-sm">
-                      70 University Ave Palo
+                      Delta State, Nigeria
                     </p>
-                    <p className="text-gray-300 text-sm">Alto, CA 94301</p>
+                    <p className="text-gray-300 text-sm">Delta State </p>
                   </div>
                 </div>
 
@@ -82,10 +82,10 @@ const Footer = () => {
                   <div>
                     <h5 className="text-white font-medium mb-1">Call Us</h5>
                     <a
-                      href="tel:6506711706"
+                      href="tel:07065024741"
                       className="text-gray-300 text-sm hover:text-[#FFF6D6] transition-colors duration-200"
                     >
-                      650.671.1706
+                      07065024741
                     </a>
                   </div>
                 </div>
@@ -97,10 +97,10 @@ const Footer = () => {
                   <div>
                     <h5 className="text-white font-medium mb-1">Email Us</h5>
                     <a
-                      href="mailto:hello@dvlpmedicines.com"
+                      href="mailto:contact@jillglobalservices.com"
                       className="text-gray-300 text-sm hover:text-[#FFF6D6] transition-colors duration-200"
                     >
-                      hello@dvlpmedicines.com
+                      contact@jillglobalservices
                     </a>
                   </div>
                 </div>
