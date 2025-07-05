@@ -14,7 +14,8 @@ const products = {
       price: 1299.99,
       rating: 4.8,
       reviews: 124,
-      category: "Living Room"
+      category: "Living Room",
+      inStock: true
     },
     { 
       id: 2, 
@@ -24,7 +25,8 @@ const products = {
       price: 899.99,
       rating: 4.9,
       reviews: 89,
-      category: "Dining Room"
+      category: "Dining Room",
+      inStock: true
     },
     { 
       id: 3, 
@@ -34,7 +36,8 @@ const products = {
       price: 459.99,
       rating: 4.7,
       reviews: 203,
-      category: "Office"
+      category: "Office",
+      inStock: false
     },
     { 
       id: 4, 
@@ -44,7 +47,8 @@ const products = {
       price: 329.99,
       rating: 4.6,
       reviews: 67,
-      category: "Living Room"
+      category: "Living Room",
+      inStock: true
     },
     { 
       id: 5, 
@@ -54,7 +58,8 @@ const products = {
       price: 1899.99,
       rating: 4.9,
       reviews: 45,
-      category: "Bedroom"
+      category: "Bedroom",
+      inStock: true
     },
     { 
       id: 6, 
@@ -64,7 +69,8 @@ const products = {
       price: 289.99,
       rating: 4.7,
       reviews: 156,
-      category: "Living Room"
+      category: "Living Room",
+      inStock: false
     },
     { 
       id: 7, 
@@ -74,7 +80,8 @@ const products = {
       price: 349.99,
       rating: 4.8,
       reviews: 215,
-      category: "Living Room"
+      category: "Living Room",
+      inStock: true
     },
     { 
       id: 8, 
@@ -84,7 +91,8 @@ const products = {
       price: 2199.99,
       rating: 4.9,
       reviews: 132,
-      category: "Living Room"
+      category: "Living Room",
+      inStock: true
     }
   ],
   curtains: [
@@ -96,7 +104,8 @@ const products = {
       price: 189.99,
       rating: 4.6,
       reviews: 67,
-      type: "Blackout"
+      type: "Blackout",
+      inStock: true
     },
     { 
       id: 10, 
@@ -106,7 +115,8 @@ const products = {
       price: 119.99,
       rating: 4.9,
       reviews: 178,
-      type: "Blackout"
+      type: "Blackout",
+      inStock: false
     },
     { 
       id: 11, 
@@ -116,7 +126,8 @@ const products = {
       price: 79.99,
       rating: 4.4,
       reviews: 156,
-      type: "Sheer"
+      type: "Sheer",
+      inStock: true
     },
     { 
       id: 12, 
@@ -126,7 +137,8 @@ const products = {
       price: 299.99,
       rating: 4.8,
       reviews: 92,
-      type: "Blinds"
+      type: "Blinds",
+      inStock: true
     },
     { 
       id: 13, 
@@ -136,7 +148,8 @@ const products = {
       price: 149.99,
       rating: 4.7,
       reviews: 89,
-      type: "Blackout"
+      type: "Blackout",
+      inStock: true
     },
     { 
       id: 14, 
@@ -146,7 +159,8 @@ const products = {
       price: 89.99,
       rating: 4.7,
       reviews: 134,
-      type: "Sheer"
+      type: "Sheer",
+      inStock: false
     },
     { 
       id: 15, 
@@ -156,7 +170,8 @@ const products = {
       price: 119.99,
       rating: 4.5,
       reviews: 134,
-      type: "Natural"
+      type: "Natural",
+      inStock: true
     },
     { 
       id: 16, 
@@ -166,7 +181,8 @@ const products = {
       price: 199.99,
       rating: 4.8,
       reviews: 87,
-      type: "Decorative"
+      type: "Decorative",
+      inStock: true
     }
   ],
   rugs: [
@@ -178,7 +194,8 @@ const products = {
       price: 549.99,
       rating: 4.9,
       reviews: 78,
-      material: "Wool"
+      material: "Wool",
+      inStock: true
     },
     { 
       id: 18, 
@@ -188,7 +205,8 @@ const products = {
       price: 229.99,
       rating: 4.5,
       reviews: 93,
-      material: "Cotton"
+      material: "Cotton",
+      inStock: false
     },
     { 
       id: 19, 
@@ -198,7 +216,8 @@ const products = {
       price: 199.99,
       rating: 4.4,
       reviews: 87,
-      material: "Wool"
+      material: "Wool",
+      inStock: true
     },
     { 
       id: 20, 
@@ -208,7 +227,8 @@ const products = {
       price: 349.99,
       rating: 4.8,
       reviews: 124,
-      material: "Wool"
+      material: "Wool",
+      inStock: true
     },
     { 
       id: 21, 
@@ -218,7 +238,8 @@ const products = {
       price: 499.99,
       rating: 4.9,
       reviews: 231,
-      material: "Wool"
+      material: "Wool",
+      inStock: false
     },
     { 
       id: 22, 
@@ -228,7 +249,8 @@ const products = {
       price: 179.99,
       rating: 4.3,
       reviews: 68,
-      material: "Jute"
+      material: "Jute",
+      inStock: true
     },
     { 
       id: 23, 
@@ -238,7 +260,8 @@ const products = {
       price: 399.99,
       rating: 4.7,
       reviews: 45,
-      material: "Wool"
+      material: "Wool",
+      inStock: true
     },
     { 
       id: 24, 
@@ -248,7 +271,8 @@ const products = {
       price: 279.99,
       rating: 4.6,
       reviews: 112,
-      material: "Synthetic"
+      material: "Synthetic",
+      inStock: true
     }
   ],
   tables: [
@@ -260,7 +284,8 @@ const products = {
       price: 899.99,
       rating: 4.7,
       reviews: 92,
-      type: "Dining"
+      type: "Dining",
+      inStock: true
     },
     { 
       id: 26, 
@@ -270,7 +295,8 @@ const products = {
       price: 599.99,
       rating: 4.9,
       reviews: 143,
-      type: "Coffee"
+      type: "Coffee",
+      inStock: false
     },
     { 
       id: 27, 
@@ -280,7 +306,8 @@ const products = {
       price: 349.99,
       rating: 4.6,
       reviews: 78,
-      type: "Console"
+      type: "Console",
+      inStock: true
     },
     { 
       id: 28, 
@@ -290,7 +317,8 @@ const products = {
       price: 229.99,
       rating: 4.5,
       reviews: 67,
-      type: "Side"
+      type: "Side",
+      inStock: true
     },
     { 
       id: 29, 
@@ -300,7 +328,8 @@ const products = {
       price: 799.99,
       rating: 4.8,
       reviews: 112,
-      type: "Dining"
+      type: "Dining",
+      inStock: false
     },
     { 
       id: 30, 
@@ -310,7 +339,8 @@ const products = {
       price: 179.99,
       rating: 4.4,
       reviews: 89,
-      type: "Side"
+      type: "Side",
+      inStock: true
     },
     { 
       id: 31, 
@@ -320,7 +350,8 @@ const products = {
       price: 699.99,
       rating: 4.7,
       reviews: 96,
-      type: "Desk"
+      type: "Desk",
+      inStock: true
     },
     { 
       id: 32, 
@@ -330,7 +361,8 @@ const products = {
       price: 1299.99,
       rating: 4.9,
       reviews: 134,
-      type: "Outdoor"
+      type: "Outdoor",
+      inStock: true
     }
   ],
   lighting: [
@@ -342,7 +374,8 @@ const products = {
       price: 459.99,
       rating: 4.6,
       reviews: 78,
-      type: "Ceiling"
+      type: "Ceiling",
+      inStock: true
     },
     { 
       id: 34, 
@@ -352,7 +385,8 @@ const products = {
       price: 189.99,
       rating: 4.7,
       reviews: 112,
-      type: "Floor"
+      type: "Floor",
+      inStock: false
     },
     { 
       id: 35, 
@@ -362,7 +396,8 @@ const products = {
       price: 249.99,
       rating: 4.8,
       reviews: 93,
-      type: "Table"
+      type: "Table",
+      inStock: true
     },
     { 
       id: 36, 
@@ -372,7 +407,8 @@ const products = {
       price: 129.99,
       rating: 4.5,
       reviews: 67,
-      type: "Ceiling"
+      type: "Ceiling",
+      inStock: true
     },
     { 
       id: 37, 
@@ -382,7 +418,8 @@ const products = {
       price: 299.99,
       rating: 4.9,
       reviews: 145,
-      type: "Floor"
+      type: "Floor",
+      inStock: false
     },
     { 
       id: 38, 
@@ -392,7 +429,8 @@ const products = {
       price: 179.99,
       rating: 4.7,
       reviews: 89,
-      type: "Wall"
+      type: "Wall",
+      inStock: true
     },
     { 
       id: 39, 
@@ -402,7 +440,8 @@ const products = {
       price: 49.99,
       rating: 4.4,
       reviews: 213,
-      type: "Accent"
+      type: "Accent",
+      inStock: true
     },
     { 
       id: 40, 
@@ -412,7 +451,8 @@ const products = {
       price: 349.99,
       rating: 4.8,
       reviews: 76,
-      type: "Ceiling"
+      type: "Ceiling",
+      inStock: true
     }
   ],
   decor: [
@@ -424,7 +464,8 @@ const products = {
       price: 89.99,
       rating: 4.7,
       reviews: 156,
-      type: "Pillows"
+      type: "Pillows",
+      inStock: true
     },
     { 
       id: 42, 
@@ -434,7 +475,8 @@ const products = {
       price: 199.99,
       rating: 4.8,
       reviews: 87,
-      type: "Art"
+      type: "Art",
+      inStock: false
     },
     { 
       id: 43, 
@@ -444,7 +486,8 @@ const products = {
       price: 129.99,
       rating: 4.6,
       reviews: 64,
-      type: "Vases"
+      type: "Vases",
+      inStock: true
     },
     { 
       id: 44, 
@@ -454,7 +497,8 @@ const products = {
       price: 179.99,
       rating: 4.9,
       reviews: 132,
-      type: "Mirror"
+      type: "Mirror",
+      inStock: true
     },
     { 
       id: 45, 
@@ -464,7 +508,8 @@ const products = {
       price: 149.99,
       rating: 4.5,
       reviews: 98,
-      type: "Plants"
+      type: "Plants",
+      inStock: false
     },
     { 
       id: 46, 
@@ -474,7 +519,8 @@ const products = {
       price: 79.99,
       rating: 4.7,
       reviews: 112,
-      type: "Candles"
+      type: "Candles",
+      inStock: true
     },
     { 
       id: 47, 
@@ -484,7 +530,8 @@ const products = {
       price: 119.99,
       rating: 4.8,
       reviews: 143,
-      type: "Blankets"
+      type: "Blankets",
+      inStock: true
     },
     { 
       id: 48, 
@@ -494,7 +541,8 @@ const products = {
       price: 89.99,
       rating: 4.6,
       reviews: 76,
-      type: "Clock"
+      type: "Clock",
+      inStock: true
     }
   ]
 };
@@ -568,6 +616,8 @@ export default function EcommercePortfolio() {
   const [activeCategory, setActiveCategory] = useState("all");
 
   const addToCart = (product) => {
+    if (!product.inStock) return;
+    
     setCart(prevCart => {
       const existingItem = prevCart.find(item => item.id === product.id);
       if (existingItem) {
@@ -600,6 +650,20 @@ export default function EcommercePortfolio() {
         )
       );
     }
+  };
+
+  const clearCart = () => {
+    setCart([]);
+    
+    const notification = {
+      id: Date.now(),
+      message: 'Cart cleared successfully!',
+      type: 'success'
+    };
+    setNotifications(prev => [...prev, notification]);
+    setTimeout(() => {
+      setNotifications(prev => prev.filter(n => n.id !== notification.id));
+    }, 3000);
   };
 
   const cartTotal = cart.reduce((total, item) => total + (item.price * item.quantity), 0);
@@ -714,12 +778,17 @@ export default function EcommercePortfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {(showMore.furniture ? filteredFurniture : filteredFurniture.slice(0, 4)).map((product) => (
               <div key={product.id} className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all">
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden relative">
                   <img
                     src={product.img}
                     alt={product.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  {!product.inStock && (
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                      <span className="bg-white text-red-500 font-bold py-2 px-4 rounded-lg">SOLD OUT</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-6 bg-white">
                   <div className="flex justify-between items-start mb-2">
@@ -737,7 +806,8 @@ export default function EcommercePortfolio() {
                     </div>
                     <button
                       onClick={() => addToCart(product)}
-                      className="p-2 bg-[#054846] text-white rounded-full hover:bg-[#0b6e60] transition"
+                      disabled={!product.inStock}
+                      className={`p-2 rounded-full transition ${product.inStock ? 'bg-[#054846] text-white hover:bg-[#0b6e60]' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
                     >
                       <ShoppingCart className="w-5 h-5" />
                     </button>
@@ -772,12 +842,17 @@ export default function EcommercePortfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {getDisplayedProducts("curtains").map((product) => (
               <div key={product.id} className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white">
-                <div className="aspect-[4/3] overflow-hidden">
+                <div className="aspect-[4/3] overflow-hidden relative">
                   <img
                     src={product.img}
                     alt={product.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  {!product.inStock && (
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                      <span className="bg-white text-red-500 font-bold py-2 px-4 rounded-lg">SOLD OUT</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
@@ -795,7 +870,8 @@ export default function EcommercePortfolio() {
                     </div>
                     <button
                       onClick={() => addToCart(product)}
-                      className="p-2 bg-[#054846] text-white rounded-full hover:bg-[#0b6e60] transition"
+                      disabled={!product.inStock}
+                      className={`p-2 rounded-full transition ${product.inStock ? 'bg-[#054846] text-white hover:bg-[#0b6e60]' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
                     >
                       <ShoppingCart className="w-5 h-5" />
                     </button>
@@ -830,12 +906,17 @@ export default function EcommercePortfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {getDisplayedProducts("rugs").map((product) => (
               <div key={product.id} className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white">
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden relative">
                   <img
                     src={product.img}
                     alt={product.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  {!product.inStock && (
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                      <span className="bg-white text-red-500 font-bold py-2 px-4 rounded-lg">SOLD OUT</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
@@ -853,7 +934,8 @@ export default function EcommercePortfolio() {
                     </div>
                     <button
                       onClick={() => addToCart(product)}
-                      className="p-2 bg-[#054846] text-white rounded-full hover:bg-[#0b6e60] transition"
+                      disabled={!product.inStock}
+                      className={`p-2 rounded-full transition ${product.inStock ? 'bg-[#054846] text-white hover:bg-[#0b6e60]' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
                     >
                       <ShoppingCart className="w-5 h-5" />
                     </button>
@@ -888,12 +970,17 @@ export default function EcommercePortfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {getDisplayedProducts("tables").map((product) => (
               <div key={product.id} className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white">
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden relative">
                   <img
                     src={product.img}
                     alt={product.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  {!product.inStock && (
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                      <span className="bg-white text-red-500 font-bold py-2 px-4 rounded-lg">SOLD OUT</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
@@ -911,7 +998,8 @@ export default function EcommercePortfolio() {
                     </div>
                     <button
                       onClick={() => addToCart(product)}
-                      className="p-2 bg-[#054846] text-white rounded-full hover:bg-[#0b6e60] transition"
+                      disabled={!product.inStock}
+                      className={`p-2 rounded-full transition ${product.inStock ? 'bg-[#054846] text-white hover:bg-[#0b6e60]' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
                     >
                       <ShoppingCart className="w-5 h-5" />
                     </button>
@@ -946,12 +1034,17 @@ export default function EcommercePortfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {getDisplayedProducts("lighting").map((product) => (
               <div key={product.id} className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white">
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden relative">
                   <img
                     src={product.img}
                     alt={product.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  {!product.inStock && (
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                      <span className="bg-white text-red-500 font-bold py-2 px-4 rounded-lg">SOLD OUT</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
@@ -969,7 +1062,8 @@ export default function EcommercePortfolio() {
                     </div>
                     <button
                       onClick={() => addToCart(product)}
-                      className="p-2 bg-[#054846] text-white rounded-full hover:bg-[#0b6e60] transition"
+                      disabled={!product.inStock}
+                      className={`p-2 rounded-full transition ${product.inStock ? 'bg-[#054846] text-white hover:bg-[#0b6e60]' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
                     >
                       <ShoppingCart className="w-5 h-5" />
                     </button>
@@ -1004,12 +1098,17 @@ export default function EcommercePortfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {getDisplayedProducts("decor").map((product) => (
               <div key={product.id} className="group relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all bg-white">
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden relative">
                   <img
                     src={product.img}
                     alt={product.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
+                  {!product.inStock && (
+                    <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
+                      <span className="bg-white text-red-500 font-bold py-2 px-4 rounded-lg">SOLD OUT</span>
+                    </div>
+                  )}
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-2">
@@ -1027,7 +1126,8 @@ export default function EcommercePortfolio() {
                     </div>
                     <button
                       onClick={() => addToCart(product)}
-                      className="p-2 bg-[#054846] text-white rounded-full hover:bg-[#0b6e60] transition"
+                      disabled={!product.inStock}
+                      className={`p-2 rounded-full transition ${product.inStock ? 'bg-[#054846] text-white hover:bg-[#0b6e60]' : 'bg-gray-300 text-gray-500 cursor-not-allowed'}`}
                     >
                       <ShoppingCart className="w-5 h-5" />
                     </button>
@@ -1131,6 +1231,16 @@ export default function EcommercePortfolio() {
                 </div>
               ) : (
                 <div className="space-y-4">
+                  <button 
+                    onClick={clearCart}
+                    className="w-full py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition mb-4 flex items-center justify-center gap-2"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z" clipRule="evenodd" />
+                    </svg>
+                    Clear Cart
+                  </button>
+                  
                   {cart.map((item) => (
                     <div key={item.id} className="flex gap-4 p-4 bg-[#054846]/5 rounded-lg">
                       <img src={item.img} alt={item.title} className="w-20 h-20 object-cover rounded" />
